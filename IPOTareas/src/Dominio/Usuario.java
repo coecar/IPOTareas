@@ -12,8 +12,17 @@ public class Usuario {
 	protected String Nombre;
 	protected String Apellido;
 	protected String Password;
+	protected String Fecha;
 	protected GestorUsuarios gestorUsuarios;
 	
+	public String getFecha() {
+		return Fecha;
+	}
+
+	public void setFecha(String fecha) {
+		Fecha = fecha;
+	}
+
 	public Usuario() {
 		gestorUsuarios = new GestorUsuarios();
 	}
@@ -23,6 +32,7 @@ public class Usuario {
 		this.Nombre=Nombre;
 		this.Apellido=Apellido;
 		this.Password=Password;
+		this.Fecha=Fecha;
 		gestorUsuarios = new GestorUsuarios();
 	}
 	
