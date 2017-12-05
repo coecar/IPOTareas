@@ -120,7 +120,7 @@ public class Principal extends JFrame {
 		}
 		pnlPanel3.setLayout(null);
 		{
-			comboBox.setModel(new DefaultComboBoxModel(new String[] {"COELLO", "MIGUEL"}));
+			comboBox.setModel(new DefaultComboBoxModel(new String[] {"COELLO", "MIGUEL", "MANOLO"}));
 			comboBox.setSelectedIndex(0);
 			comboBox.setBounds(159, 50, 89, 20);
 			pnlPanel3.add(comboBox);
