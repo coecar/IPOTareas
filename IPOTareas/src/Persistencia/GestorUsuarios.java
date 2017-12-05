@@ -40,6 +40,7 @@ public class GestorUsuarios {
 			String Fecha = br.readLine();
 			
 			Usuario usuario = new Usuario(Nick,Nombre,Apellidos,Pass,Fecha);
+			System.out.println("Usuario creado");
 		}
 		
 	}

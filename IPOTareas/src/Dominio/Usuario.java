@@ -27,7 +27,7 @@ public class Usuario {
 		gestorUsuarios = new GestorUsuarios();
 	}
 	
-	public Usuario(String Nick, String Nombre, String Apellido, String Password){
+	public Usuario(String Nick, String Nombre, String Apellido, String Password, String Fecha){
 		this.Nick=Nick;
 		this.Nombre=Nombre;
 		this.Apellido=Apellido;
